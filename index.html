@@ -4,21 +4,6 @@
   <meta charset="UTF-8">
   <title>Sample site</title>
   <link rel="stylesheet" href="style.css">
- <script type="text/javascript">
-  var __const = window.__const || [];
-  __const['host'] = "https://cbgw.kuzen.io";
-  __const['access_token'] = "095b9022a2499be76ec9ec64bdf00553";
-  __const['secret_token'] = "bc7113f1972bf1546501b294f5447bc5";
-  var app = (function(doc, scr){
-    var created_element = doc.createElement(scr),
-        sub_ele = doc.getElementsByTagName(scr)[0];
-    created_element.type = 'text/javascript'
-    created_element.async = true;
-    created_element.setAttribute('charset','utf-8');
-    created_element.src = __const['host'] + '/chat_app_logic.js';
-    sub_ele.parentNode.insertBefore(created_element, sub_ele);
-  })(document, 'script');
-</script>
 </head>
 <body>
   <div class="main">
