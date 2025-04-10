@@ -30,6 +30,23 @@ window.kuzenTagAsyncInit = function() {
 
 
 <!-- kuzen chatbot-->
+<!-- sakomasan test -->
+    <script type="text/javascript">
+  var __const = window.__const || [];
+  __const['host'] = "https://cbgw.kuzen.io";
+  __const['access_token'] = "bc513e5c4f6a8e7646c2828710af1a75";
+  __const['secret_token'] = "7e02611da981c18aae8e67f366a7766a";
+  var app = (function(doc, scr){
+    var created_element = doc.createElement(scr),
+        sub_ele = doc.getElementsByTagName(scr)[0];
+    created_element.type = 'text/javascript'
+    created_element.async = true;
+    created_element.setAttribute('charset','utf-8');
+    created_element.src = __const['host'] + '/chat_app_logic.js';
+    sub_ele.parentNode.insertBefore(created_element, sub_ele);
+  })(document, 'script');
+</script>
+   <!--
     <script type="text/javascript">
   var __const = window.__const || [];
   __const['host'] = "https://cbgw.kuzen.io";
@@ -45,6 +62,7 @@ window.kuzenTagAsyncInit = function() {
     sub_ele.parentNode.insertBefore(created_element, sub_ele);
   })(document, 'script');
 </script>
+    -->
     
 </head>
 <body>
